@@ -30,3 +30,12 @@ mvn spotless:apply
 mvn spotless:check
 ```
 
+
+## Як запустити
+```bash
+mvn test
+```
+
+## Вимоги
+- Java 17+
+- Maven 3.8+
