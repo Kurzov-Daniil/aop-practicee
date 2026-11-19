@@ -35,3 +35,7 @@ mvn spotless:check
 ```bash
 mvn test
 ```
+
+## Вимоги
+- Java 17+
+- Maven 3.8+
