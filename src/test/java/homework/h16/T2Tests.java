@@ -1,4 +1,3 @@
 package homework.h16;
 
-public class T2Tests {
-}
+public class T2Tests {}

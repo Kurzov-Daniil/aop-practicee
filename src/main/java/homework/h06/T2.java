@@ -3,20 +3,20 @@ package homework.h06;
 // advanced
 // https://leetcode.com/problems/valid-palindrome/
 public class T2 {
-    public boolean isPalindrome(String s) {
-        String clean = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+  public boolean isPalindrome(String s) {
+    String clean = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
-        int left = 0;
-        int right = clean.length() - 1;
+    int left = 0;
+    int right = clean.length() - 1;
 
-        while (left < right) {
-            if (clean.charAt(left) != clean.charAt(right)) {
-                return false;
-            }
-            left++;
-            right--;
-        }
-
-        return true;
+    while (left < right) {
+      if (clean.charAt(left) != clean.charAt(right)) {
+        return false;
+      }
+      left++;
+      right--;
     }
+
+    return true;
+  }
 }
